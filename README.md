@@ -32,16 +32,10 @@ Target yardsticks:
 - LogLoss ≤ 0.65 decent; ≤ 0.62 strong.
 
 ## How to run
-1. Create env and install deps:
-```
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-2. Open `EDA_notebook.ipynb` and run all cells top‑to‑bottom.
+1. Open `EDA_notebook.ipynb` and run all cells top‑to‑bottom.
    - The notebook uses relative paths. Ensure the CSVs are present in the repo root.
    - If play‑by‑play files are absent, advanced O/D features are skipped automatically.
-3. Artifacts saved to repo root:
+2. Artifacts saved to repo root:
    - `nfl_homewin_model_all.joblib` (Logistic, 2023–2024)
    - `nfl_homewin_rf_all.joblib` (RandomForest, 2023–2024)
    - `nfl_model_meta_all.joblib` (feature names, Elo params)
