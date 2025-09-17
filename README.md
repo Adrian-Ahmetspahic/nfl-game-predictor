@@ -14,7 +14,7 @@ This notebook-based project predicts NFL game outcomes using team strength (Elo)
 - Elo strength: pre‑game Elo with K=20 and HOME_FIELD=55.
 - Recent form (no leakage): rolling 3/5‑game stats (points for/against, margin).
 - Head‑to‑head priors: prior home‑win rate and prior average total points for the matchup.
-- Optional offense/defense (from play‑by‑play if available): yards/play, total yards, TDs, EPA allowed; rolling‑5 and to‑date.
+- Optional offense/defense (from play‑by‑play if available): yards/play, total yards, TDs, EPA allowed; rolling‑5 and to‑date. (MORE DETAILS IN THE NOTEBOOK)
 
 ## Models
 - Logistic Regression (probabilistic baseline, with scaling).
